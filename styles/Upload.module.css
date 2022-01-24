@@ -1,0 +1,25 @@
+h1.title {
+    margin: 1vw 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.box {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+    padding: 1.5vw;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+input.title {
+
+}
+
+textarea.content {
+    height: 10vw;
+}

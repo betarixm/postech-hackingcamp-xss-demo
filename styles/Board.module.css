@@ -1,0 +1,32 @@
+.blur {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+h1.title {
+    margin: 1vw 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.box {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+    padding: 1.5vw;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+}
+
+.dark {
+    color: white;
+}

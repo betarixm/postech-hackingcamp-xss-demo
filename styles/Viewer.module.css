@@ -1,0 +1,44 @@
+.box {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+    padding: 1.5vw;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw;
+
+    position: absolute;
+    z-index: 10;
+    width: 13vw;
+}
+
+.title {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content {
+    width: 100%;
+    border: none;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    border: none;
+}
+
+.button > button {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.button > button > span {
+    font-size: 1.5em;
+}
