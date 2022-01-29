@@ -1,34 +1,20 @@
+# XSS Demo
+
+[![PLUS@POSTECH](https://img.shields.io/badge/PLUS-POSTECH-000000)](https://plus.or.kr)
+[![CSE@POSTECH](https://img.shields.io/badge/Computer%20Science%20&%20Engineering-POSTECH-c80150)](https://cse.postech.ac.kr)
+
+![Screenshot](README/preview.png)
+
+It is XSS demo page used for "[POSTECH](https://postech.ac.kr) Hacking Camp". It shows three virtual viewpoints: Hacker's view, Posting view, Victim's view.
+
+## Objective
+
+Students need to invoke `sendToHacker(str)` at victim's page. Then, parameter string is shown at hacker's result page.
+
+## Structure
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Objective function `sendToHacker` is injected in `window`.
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Reference
+- [Dockerfile](https://github.com/vercel/next.js/tree/canary/examples/with-docker)
